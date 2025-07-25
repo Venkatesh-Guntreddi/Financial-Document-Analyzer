@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+gradio
+python-dotenv
+langchain>=0.2.0
+langchain-huggingface
+langchain-community
+langchain-groq
+faiss-cpu
+easyocr
+Pillow # A dependency for easyocr and general image processing
+numpy # Often a dependency for numerical libraries like easyocr
+torch # EasyOCR depends on PyTorch
+torchvision # EasyOCR depends on PyTorch
+pdfplumber
+openpyxl # For reading .xlsx files with pandas
+python-docx # For reading .docx files
+pandas # For data manipulation, especially with Excel and CSVs
+reportlab # For generating PDFs
+fuzzywuzzy # Used in parse_kpis.py for flexible matching
+=======
+gradio
+python-dotenv
+langchain>=0.2.0
+langchain-huggingface
+langchain-community
+langchain-groq
+faiss-cpu
+easyocr
+Pillow # A dependency for easyocr and general image processing
+numpy # Often a dependency for numerical libraries like easyocr
+torch # EasyOCR depends on PyTorch
+torchvision # EasyOCR depends on PyTorch
+pdfplumber
+openpyxl # For reading .xlsx files with pandas
+python-docx # For reading .docx files
+pandas # For data manipulation, especially with Excel and CSVs
+reportlab # For generating PDFs
+fuzzywuzzy # Used in parse_kpis.py for flexible matching
+>>>>>>> 071cbec525ec210f6e1ec0ab118281bfd30b0780
+python-Levenshtein # Optional, but highly recommended for faster fuzzywuzzy
