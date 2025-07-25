@@ -15,5 +15,6 @@ openpyxl # For reading .xlsx files with pandas
 python-docx # For reading .docx files
 pandas # For data manipulation, especially with Excel and CSVs
 reportlab # For generating PDFs
+sentence-transformers
 fuzzywuzzy # Used in parse_kpis.py for flexible matching
 python-Levenshtein # Optional, but highly recommended for faster fuzzywuzzy
